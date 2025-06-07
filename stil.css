@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url("Slike/04.JPEG");
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 75%;
+	margin: auto;
+	width: 75%;
+}
+p {
+	text-align:center;
+}
+nav {
+	color: ghostwhite;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	line-height: 30px;
+	margin: auto;
+}
+p, ol, ul{
+	color: ghostwhite;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	line-height: 30px;
+	background-color: rgba(22,5,30,0.75);
+	padding: 40px;
+	margin: auto;
+}
+
+h1, h2, h3 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: ghostwhite;
+	background-color: antiquewhite;
+	padding: 40px;
+	background-color: rgba(0,0,0,0.75);
+	text-align:center;
+}
+
+a:link {
+	color: ghostwhite;
+	background-color: rgba(32,16,47,0.5);
+	padding: 2px;
+	line-height: 50px;
+	border: 3px solid rgba(26,6,37,0.5);
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: rgba(16,2,32,1.00);
+}
+video,audio,iframe {
+	margin: auto;
+	display: flex;
+  	justify-content: center;
+}
+img{
+  display: flex;
+  justify-content: center;
+  display:inline;
+  align-items: center;
+}
+a:visited {
+	text-decoration:none;
+}
